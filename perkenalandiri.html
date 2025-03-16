@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8"> <!-- Mengatur karakter encoding ke UTF-8 untuk mendukung berbagai karakter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Membuat halaman responsif terhadap berbagai ukuran layar -->
+    <title>Perkenalan Diri | Praktikum 2 PDW</title>
+    <style>
+        /* Mengatur tampilan keseluruhan halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8c3c36;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Mengatur container utama yang membungkus seluruh konten */
+        .container {
+            max-width: 1200px;
+            margin: auto; /* Membuat container tetap di tengah */
+            background:#f0eceb;
+            color: #703f33;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        /* Mengatur style untuk gambar profil diri */
+        .profile-img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        /* Mengatur style untuk gallery yang nanti akan diisi gambar hasil karya sendiri */
+        .gallery {
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        /* Mengatur style untuk gambar di dalam gallery */
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        /* Mengatur style untuk bagian media sosial */
+        .socials {
+            margin-top: 10px;
+        }
+        /* Mengatur style tombol media sosial */
+        .socials a {
+            display: inline-block;
+            background: #e09b88;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+        /* Mengatur style agar memberikan efek hover pada tombol media sosial */
+        .socials a:hover {
+            background: #d17f6a;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- Membungkus seluruh konten dalam satu container -->
+        <h1>Halo! Aku Azizah :D</h1> <!-- Judul utama perkenalan -->
+        <img src="img/fotodiri.png" alt="Foto Profil" class="profile-img">
+        <p>Aku seorang mahasiswa, umurku sekarang 19 tahun.</p>
+        <p>Kegiatan favoritku adalah menggambar dan mendengarkan lagu :></p>
+        <p>Salam kenal!</p>
+        
+        <h2>Some of my drawings :o</h2> <!-- Judul untuk bagian gallery -->
+        <div class="gallery"> <!-- Galeri gambar -->
+            <img src="img/Untitled1132-1.png" alt="Gambar 1: OC Petra">
+            <img src="img/Untitled1139-1.png" alt="Gambar 2: OC Petra">
+            <img src="img/Untitled1058-1.png" alt="Gambar 3: OC Langit">
+            <img src="img/Untitled1100.png" alt="Gambar 4: OC Danu">
+        </div>
+        
+        <p>My current favorite song: <b>Soraru - Cobalt Memories (cover)</b></p>
+        
+        <div class="socials"> <!-- Tombol sosial media -->
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
